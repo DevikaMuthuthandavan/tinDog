@@ -9,9 +9,7 @@
   font-size: 3rem;
   line-height: 1.5;
 }
-.container-fluid{
-  padding: 7% 15%;
-}
+
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -23,6 +21,18 @@ h1,h2,h3,h4,h5,h6{
 }
 p{
   color: #8f8f8f;
+}
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+  background-color: #fff;
 }
 /* navigation bar */
 .navbar{
@@ -48,13 +58,9 @@ p{
 }
 /* Title section */
 
-#title{
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
 #title .container-fluid{
   padding: 3% 15% 7%;
+  text-align: left;
 }
 /* Title Image */
 .title-image{
@@ -85,7 +91,6 @@ p{
 /* Testimonial section */
 #testimonials{
   background-color: #ef8172;
-  color: white;
 }
 .testimonial-text{
   font-size: 3rem;
@@ -120,12 +125,6 @@ p{
   padding: 3% 2%;
 }
 
-/* Call to Action */
-
-#cta{
-  background-color: #ff4c68;
-  color: white;
-}
 /* Footer section */
 #footer{
   text-align: center;
